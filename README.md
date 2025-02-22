@@ -1,5 +1,3 @@
-
-```md
 # EntryXit 🚀  
 **AI-Powered People Counting System**  
 
@@ -38,7 +36,7 @@ EntryXit is an advanced real-time people counting system that leverages **comput
 ```sh
 git clone https://github.com/prajesdas/EntryXit.git  
 cd EntryXit
-```
+
 ### 2️⃣ Install Dependencies  
 ```sh
 pip install -r requirements.txt
