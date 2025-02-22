@@ -1,33 +1,63 @@
-<<<<<<< HEAD
-# Count-entering-and-exiting-people-using-YOLOv8-main
-YOLOv8 is a state-of-the-art, real-time object detection and image segmentation model.
-YOLOv8 is a state-of-the-art, real-time object detection and image segmentation model. It builds on the success of previous YOLO versions, introducing new features and improvements for enhanced performance, flexibility, and efficiency. YOLOv8 supports a full range of vision AI tasks, including detection, segmentation, pose estimation, tracking, and classification.
+EntryXit 🚀
+Automated People Counting System for Entry & Exit Monitoring
+📌 Overview
+EntryXit is an AI-powered people counting system that monitors and tracks individuals entering and exiting a designated area using computer vision techniques. This project leverages OpenCV, NumPy, and Deep Learning to provide real-time insights into crowd movement, making it useful for retail stores, offices, events, and security applications.
 
-YOLOv8 is an anchor-free model, which means it predicts directly the center of an object instead of the offset from a known anchor box. This reduces the number of box predictions, which speeds up Non-Maximum Suppression (NMS), a complicated post processing step that sifts through candidate detections after inference.
+🔥 Key Features
+✅ Real-Time People Counting – Tracks individuals entering and exiting an area.
+✅ Live Video Feed Processing – Uses a webcam or CCTV footage for detection.
+✅ AI-Powered Detection – Utilizes object detection models like YOLO or OpenCV's Haar cascades.
+✅ Entry/Exit Direction Analysis – Differentiates between incoming and outgoing individuals.
+✅ Data Logging & Visualization – Stores and displays entry/exit trends.
+✅ Customizable & Scalable – Can be adapted for various environments.
 
-YOLOv8 is also built on a new architecture called MobileNetV3, which is designed for mobile and embedded devices. This makes YOLOv8 more efficient and portable than previous YOLO models, making it ideal for use in a wide range of applications, from edge devices to cloud APIs.
+🛠️ Technologies Used
+🔹 OpenCV – Image processing and object detection
+🔹 NumPy – Array operations and mathematical functions
+🔹 Python – Core programming language
+🔹 Pandas – Data storage and analytics
+🔹 YOLO / Haar cascades – Face and person detection models
+🔹 Matplotlib / Seaborn – Data visualization
 
-Here are some of the key features of YOLOv8:
+🎯 Use Cases
+🔸 Retail Stores – Monitor customer footfall and optimize store operations.
+🔸 Corporate Offices – Track employee movement for security purposes.
+🔸 Public Events – Ensure crowd control and safety compliance.
+🔸 Smart Buildings – Automate access control and occupancy monitoring.
+🔸 Hospitals & Clinics – Track patient and visitor flow.
 
-* State-of-the-art object detection and image segmentation performance
-* Fast and accurate
-* Easy to use
-* Supports a wide range of vision AI tasks
-* Anchor-free model
-* Built on MobileNetV3 architecture
+🚀 Installation & Setup
+Step 1: Clone the Repository
+sh
+Copy
+Edit
+git clone https://github.com/prajesdas/EntryXit.git
+cd EntryXit
+Step 2: Install Dependencies
+sh
+Copy
+Edit
+pip install -r requirements.txt
+Step 3: Run the Application
+sh
+Copy
+Edit
+python entryxit.py
+🖥️ How It Works
+Camera Setup – The system captures a live video feed.
+Object Detection – Identifies and tracks people in the frame.
+Movement Analysis – Determines whether a person is entering or exiting.
+Count Update – Updates the counter and logs data for analysis.
+Visualization – Displays real-time counts on-screen and generates reports.
+⚡ Demo
+🎥 A sample demonstration video is available here (Replace with actual link if available).
 
-YOLOv8 is a powerful and versatile model that can be used for a wide range of applications. If you are looking for a state-of-the-art object detection and image segmentation model that is fast, accurate, and easy to use, then YOLOv8 is a great choice.
+🛠️ Customization
+Want to modify the project?
 
-Here are some of the use cases for YOLOv8:
+Adjust detection models in entryxit.py.
+Change logging mechanisms for data storage.
+Integrate an alert system for unauthorized access.
+📜 License
+This project is licensed under the MIT License.
 
-* Self-driving cars
-* Security cameras
-* Medical imaging
-* Retail inventory management
-* Drones
-* Robotics
-* And more!
-=======
-# EntryXit-
-✔️ Real-time people detection using OpenCV and Deep Learning.   ✔️ Tracks the number of people entering and exiting.   ✔️ Supports webcam and video file input.   ✔️ Customizable detection zones.   ✔️ Works in low-light conditions with adaptive tracking.  
->>>>>>> dab766cde7ec5f3537db6317035c5d8e8759d93f
