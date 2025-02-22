@@ -1,63 +1,77 @@
-EntryXit 🚀
-Automated People Counting System for Entry & Exit Monitoring
-📌 Overview
-EntryXit is an AI-powered people counting system that monitors and tracks individuals entering and exiting a designated area using computer vision techniques. This project leverages OpenCV, NumPy, and Deep Learning to provide real-time insights into crowd movement, making it useful for retail stores, offices, events, and security applications.
 
-🔥 Key Features
-✅ Real-Time People Counting – Tracks individuals entering and exiting an area.
-✅ Live Video Feed Processing – Uses a webcam or CCTV footage for detection.
-✅ AI-Powered Detection – Utilizes object detection models like YOLO or OpenCV's Haar cascades.
-✅ Entry/Exit Direction Analysis – Differentiates between incoming and outgoing individuals.
-✅ Data Logging & Visualization – Stores and displays entry/exit trends.
-✅ Customizable & Scalable – Can be adapted for various environments.
+```md
+# EntryXit 🚀  
+**AI-Powered People Counting System**  
 
-🛠️ Technologies Used
-🔹 OpenCV – Image processing and object detection
-🔹 NumPy – Array operations and mathematical functions
-🔹 Python – Core programming language
-🔹 Pandas – Data storage and analytics
-🔹 YOLO / Haar cascades – Face and person detection models
-🔹 Matplotlib / Seaborn – Data visualization
+EntryXit is an advanced real-time people counting system that leverages **computer vision** and **deep learning** to track individuals entering and exiting a designated area.  
 
-🎯 Use Cases
-🔸 Retail Stores – Monitor customer footfall and optimize store operations.
-🔸 Corporate Offices – Track employee movement for security purposes.
-🔸 Public Events – Ensure crowd control and safety compliance.
-🔸 Smart Buildings – Automate access control and occupancy monitoring.
-🔸 Hospitals & Clinics – Track patient and visitor flow.
+---
 
-🚀 Installation & Setup
-Step 1: Clone the Repository
-sh
-Copy
-Edit
-git clone https://github.com/prajesdas/EntryXit.git
+## 📌 Features  
+✅ **Real-time Detection** – Identifies and tracks people using AI models  
+✅ **Entry & Exit Tracking** – Automatically counts people entering/exiting  
+✅ **Live Video Processing** – Works with webcam or CCTV feeds  
+✅ **Customizable Zones** – Define entry/exit points dynamically  
+✅ **Data Logging** – Store and analyze movement data  
+
+---
+
+## 🛠️ Technologies Used  
+- **Python** – Core programming language  
+- **OpenCV** – Computer vision processing  
+- **NumPy & Pandas** – Data handling and manipulation  
+- **YOLO / MobileNet / TensorFlow** – Deep learning models for object detection  
+
+---
+
+## 🎯 How It Works  
+1️⃣ Captures a real-time video feed from a **webcam** or **CCTV**  
+2️⃣ Uses **deep learning models** to detect people  
+3️⃣ Defines **entry and exit zones** within the frame  
+4️⃣ Tracks movement and updates the **counter dynamically**  
+5️⃣ Stores data for **analytics and future enhancements**  
+
+---
+
+## 🚀 Installation & Setup  
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/prajesdas/EntryXit.git  
 cd EntryXit
-Step 2: Install Dependencies
-sh
-Copy
-Edit
+```
+### 2️⃣ Install Dependencies  
+```sh
 pip install -r requirements.txt
-Step 3: Run the Application
-sh
-Copy
-Edit
-python entryxit.py
-🖥️ How It Works
-Camera Setup – The system captures a live video feed.
-Object Detection – Identifies and tracks people in the frame.
-Movement Analysis – Determines whether a person is entering or exiting.
-Count Update – Updates the counter and logs data for analysis.
-Visualization – Displays real-time counts on-screen and generates reports.
-⚡ Demo
-🎥 A sample demonstration video is available here (Replace with actual link if available).
+```
+### 3️⃣ Run the Application  
+```sh
+python people_counter.py
+```
 
-🛠️ Customization
-Want to modify the project?
+---
 
-Adjust detection models in entryxit.py.
-Change logging mechanisms for data storage.
-Integrate an alert system for unauthorized access.
-📜 License
-This project is licensed under the MIT License.
+## 📈 Example Output  
+![Screenshot 2025-02-23 014242](https://github.com/user-attachments/assets/a426af71-dd40-4b6e-bd30-ce44843c6928)
+
+---
+
+## 🔥 Future Enhancements  
+🔹 **IoT Integration** with Raspberry Pi for smart surveillance  
+🔹 **Cloud-based** tracking and analytics dashboard  
+🔹 **Night Vision Optimization** for low-light accuracy  
+
+---
+
+## 🤝 Contributing  
+Want to improve EntryXit? Feel free to fork the repo and submit a pull request! 🎉  
+
+---
+
+## 📜 License  
+This project is licensed under the **MIT License**.  
+
+---
+
+🚀 **Developed by [@prajesdas](https://github.com/prajesdas)** | AI & Computer Vision Enthusiast  
+```
 
